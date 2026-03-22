@@ -8,6 +8,7 @@ public class Z04 {
         int oBroj = broj;
         int zbroj = 0;
 
+        //koristimo while petlju, jer ne znamo koliko broj ima znamenki
         while (broj > 0) {
             zbroj += broj % 10;
             broj /= 10;

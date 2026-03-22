@@ -10,6 +10,7 @@ public class Z01 {
         int kolicina = Integer.parseInt(kolicinaCijene);
 
         double ukupno = cijena * kolicina;
+        // ukoliko unutar "košarice" ima više od 10 proizvoda (kolicina > 10), uračuna se 20% (ukupno *= 0.8)
         if (kolicina > 10) {
             ukupno *= 0.8;
         }

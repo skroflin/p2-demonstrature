@@ -7,6 +7,8 @@ public class Z03 {
         int broj = Integer.parseInt(JOptionPane.showInputDialog("Unesite broj:"));
         String rezultat = "Tablica zbrajanja za" + " " + broj + ":\n";
 
+        //uzima se uneseni broj putem obrasca i iterira se unutar petlje
+        //petlja se iterira od 1-10, gdje se uneseni broj pridruži sa zbrajanjem
         for (int i = 1; i <= 10; i++){
             rezultat += broj + " + " + i + " = " + (broj+i) + "\n";
         }
